@@ -1,0 +1,65 @@
+:root {
+    --main-bg-color: rgba(255, 166, 0, 0.552);
+    --font1: "Roboto", sans-serif;
+}
+
+.font1 {
+    font-family: var(--font1);
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.my-2{
+    margin-bottom: 12px 0;
+    margin-top: 12px 0;
+}
+
+.m-auto-top {
+    margin-top: 20px;
+}
+
+.mx-1{
+    margin-left: 23px;
+    margin-right: 23px;
+}
+
+.btn {
+    padding: 3px 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: var(--font1);
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    color: white;
+    background-color: var(--main-bg-color);
+}
+
+.form-input {
+    padding: 3px 5px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 0 13px;
+    font-family: var(--font1);
+}
+
+.form-box input, textarea{
+    width: 52vw;
+    padding: 3px 6px;
+    margin: 7px 0;
+    border-radius: 2px solid black;
+}
